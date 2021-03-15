@@ -1,2 +1,1 @@
-# User-Posts
-displaying and filtering the users by name and posts title
+Display user list and post by using json placeholder and filter the users by name and posts by title.

@@ -1,0 +1,15 @@
+.UserList {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.UserList > div {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.UserList > div > input {
+  margin-left: 10px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
