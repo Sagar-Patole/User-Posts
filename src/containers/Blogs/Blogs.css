@@ -1,0 +1,14 @@
+.Blogs {
+  margin: 20px;
+}
+
+.Blogs > div {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.Blogs > div > input {
+  margin-left: 10px;
+  border-radius: 5px;
+  padding-left: 5px;
+}

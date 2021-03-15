@@ -1,0 +1,31 @@
+.Blog {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.Blog:hover,
+.Blog:active {
+  background-color: rgb(240, 233, 233);
+}
+
+.Title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.Body {
+  height: 150px;
+  overflow: hidden;
+}
+
+.Author {
+  color: orangered;
+}
