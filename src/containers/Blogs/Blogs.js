@@ -21,16 +21,10 @@ class Blogs extends Component {
     let blogList = null;
     if (this.props.blogs) {
       blogList = this.props.blogs
-        .filter(blog => {
-          if (blog.userId === 1) return blog;
-        })
-        .filter(blog => {
-          if (this.state.input === '') return blog;
-          else if (
-            blog.title.toLowerCase().startsWith(this.state.input.toLowerCase())
-          )
-            return blog;
-        })
+        .filter(blog => blog.userId === 1)
+        .filter(blog =>
+          blog.title.toLowerCase().startsWith(this.state.input.toLowerCase())
+        )
         .map(blog => {
           return (
             <Blog
