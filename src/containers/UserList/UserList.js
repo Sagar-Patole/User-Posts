@@ -12,13 +12,9 @@ class Users extends Component {
     let userList = null;
     if (this.props.users) {
       userList = this.props.users
-        .filter(user => {
-          if (this.state.input === '') return user;
-          else if (
-            user.name.toLowerCase().startsWith(this.state.input.toLowerCase())
-          )
-            return user;
-        })
+        .filter(user =>
+          user.name.toLowerCase().startsWith(this.state.input.toLowerCase())
+        )
         .map(user => {
           return (
             <User
